@@ -72,13 +72,32 @@ I'm open to **IT internships and entry-level opportunities** where I can gain in
 
 ### 🎫 Campus Events
 
-A group software development project focused on managing campus events.
+A collaborative campus event management application developed as a group project to provide a platform for managing and interacting with campus events.
 
 **Technologies:** Java • Spring Boot • Java Swing • REST APIs • Maven
 
-The system includes authentication and registration workflows, OTP verification, administrator bootstrapping, DTO-based communication between the frontend and backend, and role-based navigation.
+#### My Contribution
 
-> 🚧 Currently in development
+I contributed to the development of the **Organizer Dashboard and event management functionality**, working across both the backend and frontend of the application.
+
+**Backend**
+
+* Implemented the **Notification Repository**
+* Implemented the **Promo Code Repository**
+* Developed the **Notification Services**
+* Developed the **Promo Code Services**
+
+**Frontend**
+
+* Implemented the **Organizer Dashboard**
+* Developed the reusable **Generic Dashboard Shell**
+* Developed the **My Events** screen
+* Implemented the **Create/Edit Event** form
+* Developed the **Notification Sent** screen
+
+The wider application includes user registration, authentication, OTP verification, administrator bootstrapping, DTO-based communication between the Swing frontend and Spring Boot backend, and role-based navigation.
+
+> 🚧 **Currently in development**
 
 ---
 

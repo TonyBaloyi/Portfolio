@@ -218,7 +218,7 @@ I'm always open to connecting with **developers, students, recruiters and techno
 
 🔗 **LinkedIn:** [Phatutshedzo Tony Baloyi](https://www.linkedin.com/in/phatutshedzo-tony-baloyi-98a54b3b4/)
 
-🌐 **Portfolio:** [Digital Portfolio](https://tonybaloyi.github.io/digital-portfolio/)
+🌐 **Portfolio:** [Digital Portfolio](https://github.com/TonyBaloyi/Portfolio.git)
 
 💻 **GitHub:** [TonyBaloyi](https://github.com/TonyBaloyi)
 

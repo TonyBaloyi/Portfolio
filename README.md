@@ -55,16 +55,16 @@ I'm open to **IT internships and entry-level opportunities** where I can gain in
 
 ### Concepts & Practices
 
-Object-Oriented Programming (OOP)
-Database Design
-RESTful API Development
-Software Architecture
-Systems Analysis & Design
-Requirements Engineering
-Agile Development
-UI/UX Design
-Testing & Debugging
-Git-based Collaboration
+* Object-Oriented Programming (OOP)
+* Database Design
+* RESTful API Development
+* Software Architecture
+* Systems Analysis & Design
+* Requirements Engineering
+* Agile Development
+* UI/UX Design
+* Testing & Debugging
+* Git-based Collaboration
 
 ---
 

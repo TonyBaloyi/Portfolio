@@ -1,199 +1,185 @@
-# Portfolio
-# Hi, I'm Phatutshedzo Tony Baloyi 👋
+# 👋 Hi, I'm Phatutshedzo Tony Baloyi
 
 ### ICT Application Development Student | Software & Web Development
 
-I'm a final-year **Diploma in ICT Application Development** student at **Cape Peninsula University of Technology (CPUT)** with a strong interest in software development, web technologies, and building practical solutions to real-world problems.
+🎓 **Final-year Diploma in ICT Application Development @ CPUT**
+💻 **Software & Web Development**
+🇿🇦 **Cape Town, South Africa**
+🎯 **Currently seeking IT / Software Development internship opportunities**
 
-I'm currently expanding my development experience by working on personal and academic projects, exploring different technologies, and continuously improving my programming and problem-solving skills.
+I'm a developer in the making who enjoys turning ideas and real-world problems into practical software solutions.
 
-I'm open to **IT internships and entry-level opportunities** where I can gain industry experience, contribute to real projects, and discover the area of IT that I want to specialize in.
+I'm currently expanding my skills through **academic, collaborative, and personal projects**, while exploring different areas of IT to discover where I want to specialize.
+
+---
+
+## 🚧 Portfolio Under Active Development
+
+> **This GitHub profile is a work in progress — and the progress is intentional.**
+
+I'm currently rebuilding and improving my GitHub portfolio to better represent my current skills and development journey.
+
+Some repositories may still be incomplete or outdated while I work on:
+
+* 🧹 Improving and organizing existing repositories
+* 🛠️ Completing unfinished projects
+* 📝 Improving project documentation
+* 🚀 Building new applications
+* 📚 Learning and applying new technologies
+* 🔀 Making consistent Git commits and contributions
+* 🎯 Preparing for internship and entry-level opportunities
+
+**The goal isn't just to make the profile look better — it's to make the work behind it better.**
 
 ---
 
 ## 🚀 About Me
 
-* 🎓 Final-year Diploma in ICT Application Development student at CPUT
-* 💻 Interested in software development and web development
-* 🌱 Currently building and expanding my portfolio through practical projects
-* 🧠 Interested in learning new technologies and improving my problem-solving skills
-* 🤝 Experienced in both individual and group-based development projects
-* 🇿🇦 Based in Cape Town, South Africa
-* 🎯 Currently seeking opportunities to gain professional IT experience
+* 🎓 Final-year **Diploma in ICT Application Development** student at CPUT
+* 💻 Interested in **software development and web development**
+* 🧠 Enjoy solving problems through technology
+* 🤝 Experience working on both **individual and collaborative projects**
+* 🌱 Continuously learning new technologies and development practices
+* 🏗️ Interested in building practical applications rather than only tutorial projects
+* 🎯 Currently looking for an opportunity to gain **real-world IT experience**
 
 ---
 
 ## 🛠️ Technologies & Tools
 
-### Languages
+### 💻 Languages
 
-* Java
-* JavaScript
-* PHP
-* Visual Basic
-* HTML5
-* CSS3
-* SQL
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge\&logo=php\&logoColor=white)
+![Visual Basic](https://img.shields.io/badge/Visual%20Basic-512BD4?style=for-the-badge\&logo=.net\&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
 
-### Frameworks & Libraries
-* Spring Boot
-* React
-* Laravel
-* Node.js
-* Java Swing
-### Tools & Technologies
+### ⚙️ Frameworks & Libraries
 
-* Git
-* GitHub
-* IntelliJ IDEA
-* Visual Studio Code
-* MySQL
-* MySQL Workbench
-* Figma
-* Maven
-* REST APIs
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge\&logo=springboot\&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge\&logo=laravel\&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)
+![Java Swing](https://img.shields.io/badge/Java%20Swing-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white)
 
-### Concepts & Practices
+### 🔧 Tools & Technologies
 
-* Object-Oriented Programming (OOP)
-* Database Design
-* RESTful API Development
-* Software Architecture
-* Systems Analysis & Design
-* Requirements Engineering
-* Agile Development
-* UI/UX Design
-* Testing & Debugging
-* Git-based Collaboration
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge\&logo=intellijidea\&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge\&logo=visualstudiocode\&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
+![MySQL Workbench](https://img.shields.io/badge/MySQL%20Workbench-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge\&logo=figma\&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge\&logo=apachemaven\&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-005571?style=for-the-badge)
+![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge\&logo=npm\&logoColor=white)
+![Composer](https://img.shields.io/badge/Composer-885630?style=for-the-badge\&logo=composer\&logoColor=white)
+
+### 🧠 Concepts & Practices
+
+`OOP` · `Database Design` · `RESTful APIs` · `Software Architecture` · `Systems Analysis & Design` · `Requirements Engineering` · `Agile Development` · `UI/UX Design` · `Testing & Debugging` · `Git Collaboration`
 
 ---
 
-## 💻 Featured Projects
+# 💻 Featured Projects
 
-### 🎫 Campus Events
+## 🎫 Campus Events
 
-A collaborative campus event management application developed as a group project to provide a platform for managing and interacting with campus events.
+**Collaborative Java application for managing campus events.**
 
-**Technologies:** Java • Spring Boot • Java Swing • REST APIs • Maven
+**Stack:** `Java` `Spring Boot` `Java Swing` `REST APIs` `Maven`
 
-#### My Contribution
+### My Contribution
 
-I contributed to the development of the **Organizer Dashboard and event management functionality**, working across both the backend and frontend of the application.
+I contributed across both the **backend and frontend**, with a focus on the organizer experience.
 
 **Backend**
 
-* Implemented the **Notification Repository**
-* Implemented the **Promo Code Repository**
-* Developed the **Notification Services**
-* Developed the **Promo Code Services**
+* Notification Repository
+* Promo Code Repository
+* Notification Services
+* Promo Code Services
 
 **Frontend**
 
-* Implemented the **Organizer Dashboard**
-* Developed the reusable **Generic Dashboard Shell**
-* Developed the **My Events** screen
-* Implemented the **Create/Edit Event** form
-* Developed the **Notification Sent** screen
+* Organizer Dashboard
+* Generic Dashboard Shell
+* My Events
+* Create/Edit Event
+* Notification Sent
 
-The wider application includes user registration, authentication, OTP verification, administrator bootstrapping, DTO-based communication between the Swing frontend and Spring Boot backend, and role-based navigation.
+The wider system includes registration, authentication, OTP verification, first-admin bootstrapping, DTO-based frontend/backend communication, and role-based navigation.
 
-> 🚧 **Currently in development**
-
----
-
-### 💧 AquaLink — Smart Water Access Platform
-
-AquaLink is a personal software project designed to connect South African communities with **clean, reliable and intelligently managed water services**.
-
-The platform is designed to manage the relationship between households, water suppliers and administrators while incorporating **real-time water monitoring, subscriptions, payments, notifications and IoT infrastructure**.
-
-#### 🏗️ System Architecture
-
-AquaLink is designed around four major layers:
-
-* **Presentation Layer** — Household, Supplier and Administrator interfaces
-* **Application/API Layer** — Business logic, authentication, subscriptions, payments, water usage, alerts and reporting
-* **Data Layer** — Relational storage for users, households, suppliers, boreholes, subscriptions, payments, sensor readings and alerts
-* **Physical/IoT Layer** — Boreholes, flow sensors, buffer tanks, pipe networks and household water points
-
-#### ⚙️ Planned Technology Stack
-
-**Frontend:** React / Next.js
-**Backend:** Node.js / Django
-**Database:** PostgreSQL
-**IoT Communication:** MQTT / HTTP
-**Cloud:** AWS / Azure
-**Payments:** PayFast / Yoco / Mobile Money
-**Notifications:** SMS / Email / Twilio
-
-#### 🌍 Key Features
-
-* Household registration and account management
-* Water subscription plans
-* Water usage monitoring
-* Payment tracking
-* Supplier and borehole management
-* Real-time sensor readings
-* Water-level and supply alerts
-* Administrative dashboards
-* Reporting and analytics
-* Notification services
-* IoT-enabled water infrastructure monitoring
-
-#### 🎯 Project Goal
-
-The goal of AquaLink is to explore how **software, IoT and digital services can work together to improve access to reliable water**, while providing communities and administrators with greater visibility into water usage, supply, payments and infrastructure.
-
-> 🚧 **Architecture & planning completed — development upcoming**
+**Status:** 🚧 In Development
 
 ---
 
-### 📱 SASSA Grant Management App
+## 💧 AquaLink
 
-A solo mobile application project designed to provide beneficiaries with a centralized way to **manage and interact with their SASSA grant information**.
+**Smart water-access platform designed around community water management.**
 
-The project was created from the idea of simplifying common grant-related tasks by bringing applications, grant information, payment details, profile management and support functionality into a single mobile experience.
+AquaLink explores how **software, IoT and digital services** can work together to improve access to reliable water while providing visibility into water usage, supply, payments and infrastructure.
 
-#### 🎨 UI/UX Design
+**Planned Stack:** `React / Next.js` `Node.js / Django` `PostgreSQL` `MQTT / HTTP` `Cloud Services`
 
-The application has been designed in **Figma**, with approximately 13–14 screens planned for the initial user experience.
+### Planned Features
 
-#### ✨ Planned Features
+* 💧 Water subscription management
+* 🏠 Household management
+* 🚰 Borehole & supplier management
+* 📊 Water usage monitoring
+* 💳 Payment tracking
+* 🔔 Water-level and supply alerts
+* 📈 Reporting & analytics
+* 📡 IoT infrastructure monitoring
 
-* **Login** — Secure entry point for beneficiaries
-* **My Grant** — View current, upcoming and historical grants
-* **Apply for Grant** — Submit grant applications and upload required documentation
-* **Profile** — View and edit personal information
-* **Help & Support** — Access frequently asked questions and support information
-* **Contact Us** — Access relevant contact information
-* **Submit a Query** — Submit grant-related questions or issues for assistance
+**Status:** 🏗️ Architecture & Planning
 
-#### 🎯 Project Goal
+---
 
-The goal of the project is to create a simple, accessible mobile experience that allows SASSA beneficiaries to manage important grant-related information and services from one centralized application.
+## 📱 SASSA Grant Management App
 
-> 🎨 **UI/UX design completed — application development starting soon**
+**Mobile application concept designed to centralize SASSA grant-related services.**
 
-> 🚧 Development starting soon
+The project focuses on providing beneficiaries with a single mobile experience for managing grant information and interacting with grant-related services.
+
+### Planned Features
+
+* 🔐 Login
+* 💰 Current, upcoming & historical grants
+* 📝 Grant applications
+* 📎 Document uploads
+* 👤 Profile management
+* ❓ Help & Support
+* 📞 Contact information
+* 💬 Query submission
+
+The initial user experience has been designed in **Figma**, with approximately 13–14 screens planned.
+
+**Status:** 🎨 UI/UX Complete → Development Starting
 
 ---
 
 ## 📚 Currently Learning & Exploring
 
-I'm continuously expanding my development skills through academic work, personal projects, and hands-on experimentation.
+I'm continuously developing my skills through university work, personal projects and hands-on experimentation.
 
 Currently focusing on:
 
-* ☕ **Java & Spring Boot** — building backend services and application logic
-* ⚛️ **React** — developing modern web interfaces
-* 🗄️ **Database Development** — designing and integrating relational databases
-* 🔌 **REST API Development** — connecting frontend applications with backend services
-* 🏗️ **Software Architecture** — designing scalable and maintainable application structures
-* 📱 **Application Development** — turning UI/UX designs into functional applications
-* 🎨 **UI/UX Design** — designing interfaces and user experiences with Figma
-* 🧪 **Testing & Debugging** — improving application reliability and troubleshooting issues
-* 🔀 **Git & Collaborative Development** — working with version control and team-based development
-* 🚀 **Building Real-World Projects** — continuously developing and documenting projects for my portfolio
+* ☕ **Java & Spring Boot**
+* ⚛️ **React**
+* 🗄️ **Database Development**
+* 🔌 **REST API Development**
+* 🏗️ **Software Architecture**
+* 📱 **Application Development**
+* 🎨 **UI/UX Design**
+* 🧪 **Testing & Debugging**
+* 🔀 **Git & Collaborative Development**
+* 🚀 **Building Real-World Projects**
 
 ---
 
@@ -201,45 +187,45 @@ Currently focusing on:
 
 My journey into technology started with learning the fundamentals of programming and application development and has grown into a deeper interest in building practical software solutions.
 
-As a final-year ICT Application Development student, I've had the opportunity to work with different programming languages, frameworks, databases and development tools while working on both individual and collaborative projects.
+As a final-year ICT Application Development student, I've worked with different programming languages, frameworks, databases and development tools through both individual and collaborative projects.
 
-I'm currently focused on taking what I've learned academically and applying it through **real projects**.
+I'm now focused on taking what I've learned academically and applying it through **real projects**.
 
-From developing backend services and dashboards for **Campus Events**, to designing a smart water-management platform with **AquaLink**, and transforming a Figma concept into the **SASSA Grant Management App**, I'm using my projects to explore different areas of software development and discover where I want to specialize.
-
-My goal is simple:
+From contributing to **Campus Events**, to designing **AquaLink**, and moving the **SASSA Grant Management App** from Figma into development, I'm using each project to explore different areas of software development and discover where I want to specialize.
 
 > **Keep building. Keep learning. Keep improving.**
 
-## 🚧 Portfolio Under Active Development
+---
 
-This GitHub profile is currently undergoing a **continuous rebuild and improvement process**.
+## 🎯 What I'm Looking For
 
-Some of my existing repositories may be incomplete, outdated, or still in their early stages. Rather than hiding that, I'm using this profile to document the process of improving them — updating projects, completing unfinished applications, improving documentation, learning new technologies, and building new projects from the ground up.
+I'm currently seeking an **IT internship or entry-level opportunity** where I can:
 
-I'm currently working toward creating a GitHub portfolio that better represents my **current skills, development journey, and potential as an upcoming IT professional**.
+* Gain exposure to the professional IT environment
+* Work alongside experienced developers and IT professionals
+* Contribute to real-world projects
+* Strengthen my technical and problem-solving skills
+* Explore different areas of the technology industry
+* Continue learning and growing as a developer
 
-### 🔄 What I'm Working On
-
-* 🧹 Reviewing and improving existing repositories
-* 📝 Writing better project documentation
-* 🛠️ Completing unfinished projects
-* 🚀 Building new applications
-* 📚 Learning and applying new technologies
-* 🔀 Making consistent Git commits and contributions
-* 🎯 Preparing my portfolio for internship and entry-level opportunities
-
-**This profile is a work in progress — and the progress is intentional.**
-
-If you come back in a few weeks or months, you'll hopefully see more than just a different README. You'll see the work behind it.
+I'm open to discovering where my strengths and interests fit best within the industry.
 
 ---
 
 ## 🤝 Let's Connect
 
-I'm always open to connecting with other developers, students, recruiters, and people interested in technology.
+I'm always open to connecting with **developers, students, recruiters and technology professionals**.
 
-**LinkedIn:** [Phatutshedzo Tony Baloyi](https://www.linkedin.com/in/phatutshedzo-tony-baloyi-98a54b3b4/)
+🔗 **LinkedIn:** [Phatutshedzo Tony Baloyi](https://www.linkedin.com/in/phatutshedzo-tony-baloyi-98a54b3b4/)
+
+🌐 **Portfolio:** [Digital Portfolio](https://tonybaloyi.github.io/digital-portfolio/)
+
+💻 **GitHub:** [TonyBaloyi](https://github.com/TonyBaloyi)
+
+---
+
+⭐ **Thanks for visiting my profile. Explore my repositories and follow the journey as I build, learn and improve.**
+
 
 **Portfolio:** [Digital Portfolio](https://tonybaloyi.github.io/digital-portfolio/)
 

@@ -227,7 +227,7 @@ I'm always open to connecting with **developers, students, recruiters and techno
 ⭐ **Thanks for visiting my profile. Explore my repositories and follow the journey as I build, learn and improve.**
 
 
-**Portfolio:** [Digital Portfolio](https://tonybaloyi.github.io/digital-portfolio/)
+**Portfolio:** [Digital Portfolio]([https://tonybaloyi.github.io/digital-portfolio/](https://github.com/TonyBaloyi/Portfolio.git))
 
 ---
 

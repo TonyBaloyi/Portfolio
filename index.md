@@ -1,34 +1,52 @@
+
 ---
 layout: default
 title: AquaLink Portfolio of Evidence
 ---
 
-# AquaLink — Digital Portfolio of Evidence
+# AquaLink — Portfolio of Evidence
 
-**Project:** AquaLink: Smart Community Water Distribution and Management  
-**Portfolio owner:** Phatutshedzo Baloyi  
+**Phatutshedzo Baloyi**  
 **Role:** Project Lead  
-**Module:** Project Presentation 3 (PRP370S / applicable registered code)  
 **Institution:** Cape Peninsula University of Technology  
+**Module:** Project Presentation 3
 
 > Connecting Water. Empowering Communities.
 
-## About this portfolio
+## About AquaLink
 
-This portfolio documents Agile project-management learning through five evidence-and-reflection sections. The supporting Agile logbook covers **27 July–29 October 2026**. Evidence and reflection should be read together: artefacts show what was documented, while reflections explain what was learned and how practice developed.
+AquaLink is a smart community water-distribution and management project focused on improving access to reliable water in underserved communities.
 
-## Portfolio sections
+This portfolio documents the Agile planning, development, testing and reflection associated with the project between 27 July and 29 October 2026.
 
-1. [Agile Team Charter](agile-team-charter.html)
-2. [User Stories and Tasks](user-stories-and-tasks.html)
-3. [Product Backlog](product-backlog.html)
-4. [Sprint Backlog](sprint-backlog.html)
-5. [Agile Logbook](agile-logbook.html)
+## Portfolio Assessment Sections
 
-## Evidence library
+| Section | Evidence | Reflection |
+|---|---|---|
+| [Agile Team Charter](agile-team-charter.html) | 10 marks | 10 marks |
+| [User Stories and Tasks](user-stories-and-tasks.html) | 10 marks | 10 marks |
+| [Product Backlog](product-backlog.html) | 10 marks | 10 marks |
+| [Sprint Backlog](sprint-backlog.html) | 10 marks | 10 marks |
+| [Agile Logbook](agile-logbook.html) | 10 marks | 10 marks |
 
-- [Download the AquaLink Agile Logbook](evidence/AquaLink_Agile_Logbook.docx)
-- **Trello board:** [ADD VERIFIED TRELLO LINK]
-- **Project repository:** [ADD VERIFIED PROJECT REPOSITORY LINK]
+**Total: 100 marks**
+
+## Project Evidence
+
+- [AquaLink Trello Board](https://trello.com/invite/b/6a61c8f1356d8a59c782231c/ATTIf9d9fdf7ec47fcd3745825ca9a054a2898604B70/aqualink)
+- [AquaLink GitHub Repository](https://github.com/TonyBaloyi/AquaLink)
+- [Trello Evidence Gallery](evidence-gallery.html)
+
+## Project Development
+
+The Agile process included requirements analysis, user-story refinement, interface development, solution architecture, application testing and preparation for the final presentation.
+
+The portfolio distinguishes completed application work from planned or unverified external integrations, including payment processing and physical IoT sensors.
+
+## Personal Reflection
+
+As Project Lead, my portfolio examines how Agile planning, task prioritisation, team coordination and iterative testing contributed to the AquaLink project.
+
+The five sections contain evidence and reflection drafts that I will review against my own experience and supporting project records.
 
 > **Evidence note:** The logbook is supplied; the Trello board, charter and supporting screenshots must be added from authentic project records. Personal reflections are prompts for the portfolio owner to complete.

@@ -1,3 +1,4 @@
+
 ---
 layout: default
 title: User Stories and Tasks
@@ -6,212 +7,312 @@ permalink: /user-stories-and-tasks.html
 
 <div class="page-content" markdown="1">
 
-<span class="eyebrow">Agile Portfolio · Requirements & Development</span>
+<span class="eyebrow">Agile Portfolio · Requirements & Implementation</span>
 
 # User Stories & Tasks
 
-### Turning community needs into meaningful digital experiences.
+### Translating real user needs into functional software.
 
-AquaLink began with a social problem, but addressing that problem through software required more than identifying what was wrong.
+One of the most important lessons I learned during AquaLink was that software development does not begin with writing code.
 
-We needed to understand who would use our solution, what those users needed to accomplish, and how their requirements could be translated into practical development tasks.
+It begins with understanding what users need to accomplish.
 
-For me, this was one of the most important connections between Agile planning and frontend development.
+As Project Lead and a substantial frontend contributor, I participated in reviewing requirements, refining application workflows and translating user needs into screens and interactions.
 
-A feature could sound useful in a meeting, but until it became an understandable screen, navigation flow or interaction, its value remained largely theoretical.
+The original Agile Logbook records this process from the requirements stage through frontend implementation and testing.
 
 ---
 
-## 01. Understanding Our Users
+## 01. Understanding AquaLink's Users
 
-AquaLink's application was organised around three principal user roles.
+AquaLink's documented application focused on two principal system roles: Administrator and Supplier.
+
+Households were represented as subscribers and beneficiaries within the platform rather than as users of a separate consumer application.
 
 <div class="card-grid">
 
 <div class="feature-card">
-<span class="card-icon">◈</span>
+
+<span class="card-icon">01</span>
 
 ### Administrator
 
-Responsible for reviewing and managing operational information across the platform, including households, suppliers and subscription-related activities.
+Responsible for reviewing operational information, households, suppliers, plans and purchase-related records.
 
 </div>
 
 <div class="feature-card">
-<span class="card-icon">◉</span>
+
+<span class="card-icon">02</span>
 
 ### Supplier
 
-Uses supplier-facing screens to review water infrastructure information, tanks, refill records and alerts.
+Responsible for reviewing tank information, refill history, monitoring data and operational alerts.
 
 </div>
 
 <div class="feature-card">
-<span class="card-icon">⌂</span>
 
-### Household
+<span class="card-icon">03</span>
 
-Represents community members who need accessible information about their water-related services and subscriptions.
+### Households
+
+Community beneficiaries represented through household records, supplier assignments and subscription information.
 
 </div>
 
 </div>
 
-These roles helped us organise the application around different user responsibilities instead of designing every screen for the same type of user.
+This distinction influenced how we organised navigation and user-facing features.
+
+The system needed to provide appropriate information for each role without confusing administrative responsibilities with supplier operations.
 
 ---
 
-## 02. From Requirements to User Stories
+## 02. Evidence of Requirements Analysis
 
-During the requirements stage, we identified user needs and began translating them into tasks that could be organised through our Agile workflow.
+The original Agile Logbook contains dated entries documenting the early requirements process.
 
-Our Agile Logbook records requirements and user-story refinement during **27–31 July 2026**.
-
-The examples below are portfolio summaries of the requirements and screens reflected in our project records. They are not presented as word-for-word quotations from Trello.
-
-| User Role | User Story | Related Development Work |
+| Date | Recorded Activity | Development Significance |
 |---|---|---|
-| Administrator | As an administrator, I want an overview of platform operations so that I can monitor important information. | Admin dashboard |
-| Administrator | As an administrator, I want to review household information so that I can understand the households recorded on the platform. | Household list and detail screens |
-| Administrator | As an administrator, I want to review subscription plans so that I can understand available services and purchase information. | Plan management and purchase screens |
-| Supplier | As a supplier, I want to view tank information so that I can monitor the water infrastructure associated with my work. | Tank overview and detail screens |
-| Supplier | As a supplier, I want to review refill history so that I can understand previous refill activity. | Refill history screens |
-| Supplier | As a supplier, I want to review alerts so that I can identify situations requiring attention. | Supplier and sensor alert screens |
+| 27 July 2026 | Reviewed the AquaLink scope and agreed user stories | Established the Admin and Supplier requirements |
+| 28 July 2026 | Reviewed supplier and household management stories | Considered relationships between records |
+| 29 July 2026 | Organised requirements for plans, purchases, tanks, refills and alerts | Connected requirements to the product backlog |
+| 30 July 2026 | Reviewed navigation between Admin and Supplier pages | Identified role-specific navigation needs |
+| 31 July 2026 | Consolidated user-story scope and development priorities | Prepared requirements for implementation |
 
-The purpose of these stories was to connect system functionality to the needs of the people who would use it.
+**Primary source:** AquaLink Agile Logbook, 27–31 July 2026.
+
+[Download Original Agile Logbook](evidence/documents/AquaLink_Agile_Logbook.docx)
+
+These entries demonstrate that the application requirements were reviewed before implementation and that dependencies between pages were considered during planning.
 
 ---
 
-## 03. Breaking Stories into Development Tasks
+## 03. User Stories and Related Features
 
-A user story describes a need. A development task describes the work required to address that need.
+The following user stories express the functional requirements documented in the logbook using the standard Agile user-story format.
 
-For example, an administrator's need to review household information can be broken into several frontend tasks:
+They are structured summaries of recorded requirements, rather than verbatim quotations from individual Trello cards.
 
-1. Design the household listing interface.
-2. Determine which household information should be visible.
-3. Create the household detail layout.
-4. Implement navigation between the listing and detail screens.
-5. Handle empty, loading and error states where applicable.
-6. Test the screens for usability and responsiveness.
+| ID | User Story | Related Feature |
+|---|---|---|
+| US-01 | As an Administrator, I want to view an operational dashboard so that I can review important platform information. | Admin dashboard |
+| US-02 | As an Administrator, I want to view household records so that I can understand household details and supplier assignments. | Household list and details |
+| US-03 | As an Administrator, I want to review plans and purchases so that I can understand subscription-related activities. | Plans and purchase screens |
+| US-04 | As a Supplier, I want to view tank information so that I can monitor infrastructure status. | Tanks overview and details |
+| US-05 | As a Supplier, I want to review refill history so that I can understand previous refill activities. | Refill history |
+| US-06 | As a Supplier, I want to view alerts so that I can identify operational situations requiring attention. | Supplier and sensor alerts |
 
-This is an illustrative task breakdown used to explain the development process, not a claim that these exact six items appeared as separate Trello cards.
+The identifiers above are used for traceability within this portfolio.
+
+---
+
+## 04. From User Story to Development Task
+
+A user story describes a user's objective.
+
+Development tasks describe the work required to support that objective.
+
+The following examples connect documented AquaLink requirements to frontend implementation activities.
 
 <div class="story-panel">
 
-<span class="eyebrow">Example · Story to Feature</span>
+<span class="eyebrow">US-02 · Administrator</span>
 
-### Administrator Household Management
+### Household Information
 
-**User need:** Review household records.
+**User need:** Review household records and related supplier and plan information.
 
-**Interface work:** Household listing and detail screens.
+**Related screens:** Household list and household details.
 
-**Expected experience:** The administrator should be able to understand the information presented and move between the relevant screens without confusion.
+**Frontend considerations:**
 
-**Development consideration:** Consistent layouts, readable information and clear navigation.
+- Present household identification clearly.
+- Display supplier assignment and plan information.
+- Provide navigation between list and detail views.
+- Handle missing or incomplete information.
+- Keep information consistent across related screens.
+
+**Logbook evidence:** 18–19 August and 8 September 2026.
+
+</div>
+
+<div class="story-panel">
+
+<span class="eyebrow">US-04 · Supplier</span>
+
+### Tank Monitoring
+
+**User need:** Review tank information and monitoring status.
+
+**Related screens:** Tanks overview and tank details.
+
+**Frontend considerations:**
+
+- Display tank identifiers and capacity.
+- Present water level and status information.
+- Show the latest reading and its timestamp.
+- Support navigation from overview to detail.
+- Distinguish unavailable readings from valid monitoring data.
+
+**Logbook evidence:** 13 August and 24–25 August 2026.
+
+</div>
+
+<div class="story-panel">
+
+<span class="eyebrow">US-06 · Supplier</span>
+
+### Operational Alerts
+
+**User need:** Identify monitoring conditions that may require attention.
+
+**Related screens:** Supplier alerts and sensor alert pages.
+
+**Frontend considerations:**
+
+- Display alert categories and severity.
+- Distinguish normal, low, critical and unavailable conditions.
+- Present stale or unavailable sensor information clearly.
+- Avoid treating unusual readings as confirmed infrastructure faults.
+
+**Logbook evidence:** 27–28 August and 17 September 2026.
 
 </div>
 
 ---
 
-## 04. My Contribution to the Frontend
+## 05. Acceptance Criteria
 
-My contribution to AquaLink extended significantly into the frontend.
+Acceptance criteria establish the conditions that a feature should satisfy.
 
-I worked on how the application looked and felt, as well as features that users would interact with.
+The logbook records the review and refinement of acceptance criteria, including an entry on 14 September 2026 comparing implemented screens with the agreed user stories.
 
-This included attention to page layouts, visual consistency, navigation and the overall experience of using the application.
+The criteria below are my retrospective, testable interpretation of the documented requirements.
 
-I wanted the interface to communicate professionalism, but I also wanted it to be understandable.
+| User Story | Proposed Acceptance Criteria |
+|---|---|
+| US-01 | Dashboard information is readable and links to the relevant management screens |
+| US-02 | Household records can be viewed, related information is displayed consistently, and navigation between list and detail works |
+| US-03 | Plan and purchase information uses consistent status labels and does not imply that a payment has been processed unless verified |
+| US-04 | Tank overview and detail information are consistent, with clear status and reading information |
+| US-05 | Refill records show relevant tank references, dates and event information |
+| US-06 | Alerts distinguish severity and unavailable readings, and do not present simulated sensor information as live data |
 
-A system intended to support community services should not introduce unnecessary complexity for the people using it.
+These criteria provide a practical way to evaluate the interface.
 
-This shaped how I thought about frontend development: not merely as styling pages, but as translating requirements into experiences that users can navigate.
+They do not establish that every backend or external integration was completed.
 
 ---
 
-## 05. Evidence from Our Agile Planning
+## 06. My Frontend Contribution
 
-Our Trello board contains a **Sprint 1 — Requirements & User Stories** section, alongside subsequent sprint tasks covering implementation.
+My contribution to AquaLink was strongly connected to turning requirements into usable interfaces.
 
-The following images are part of our original Trello screenshot collection.
+I worked extensively on the application's visual presentation, page structure, navigation and user-facing functionality.
 
-### Requirements and Task Evidence
+The Agile Logbook records activities involving:
 
-![AquaLink Trello planning evidence](evidence/trello/trello-12.jpg)
+- Reviewing the Admin dashboard layout on 17 August.
+- Reviewing household list and detail workflows on 18–19 August.
+- Reviewing Supplier monitoring and alert screens during 24–28 August.
+- Reviewing global and role-specific styling from 31 August to 2 September.
+- Checking navigation between application screens on 3–4 September.
+- Reviewing responsive layouts and usability during September.
 
-*Original Trello evidence from our Agile planning records.*
+These activities demonstrate the relationship between requirements, frontend development and quality review.
 
-![AquaLink Trello task evidence](evidence/trello/trello-13.jpg)
+One of my priorities was ensuring that AquaLink remained visually consistent as the number of screens increased.
 
-*Additional Trello screenshot showing project planning and task information.*
+I learned that a feature is not simply an isolated page. It must fit into the wider application experience.
+
+---
+
+## 07. Evidence from Trello
+
+### Requirements and Development Tasks
+
+![Original AquaLink Trello evidence 12](evidence/trello/trello-12.jpg)
+
+*Original Trello screenshot from the project planning evidence collection.*
+
+![Original AquaLink Trello evidence 13](evidence/trello/trello-13.jpg)
+
+*Additional original Trello screenshot documenting project work.*
 
 ### Supporting Records
 
-- [View the Original Trello Board](https://trello.com/invite/b/6a61c8f1356d8a59c782231c/ATTIf9d9fdf7ec47fcd3745825ca9a054a2898604B70/aqualink)
-- [View the Product Backlog](product-backlog.html)
-- [View the Agile Logbook](agile-logbook.html)
-- [Explore the Evidence Gallery](evidence-gallery.html)
-
-The screenshots will display after the original image files are uploaded to the evidence folder.
+- [Original AquaLink Trello Board](https://trello.com/invite/b/6a61c8f1356d8a59c782231c/ATTIf9d9fdf7ec47fcd3745825ca9a054a2898604B70/aqualink)
+- [Original Agile Logbook](evidence/documents/AquaLink_Agile_Logbook.docx)
+- [Evidence Gallery](evidence-gallery.html)
+- [Product Backlog](product-backlog.html)
 
 ---
 
-## 06. My Reflection: Understanding What Users Need
+## 08. My Reflection: The Importance of Acceptance Criteria
 
-Working on user stories and tasks helped me understand the relationship between requirements and implementation.
+The most important lesson I learned from working with user stories was the value of defining what successful implementation actually means.
 
-At the beginning of a project, it is easy to focus on what the system should contain.
+At first, it can be tempting to think of a feature as complete once the relevant screen exists.
 
-But during frontend development, I began to appreciate a different question:
+However, the development process taught me that a screen must also satisfy the user's purpose.
 
-> How will the person using this system actually experience the feature we are building?
+For example, displaying household information is not enough if the records are difficult to understand or navigation between screens is confusing.
 
-An administrator does not simply need a page called "Households". They need information organised in a way that makes their responsibilities easier to perform.
+Similarly, a tank monitoring page should not simply display numbers. It should communicate whether those readings are current, unavailable or simulated.
 
-A supplier does not simply need a page called "Tanks". They need an interface that communicates relevant information clearly.
+This changed how I approached frontend development.
 
-This experience helped me see user stories as more than planning documents. They provide a connection between the user's purpose and the developer's decisions.
+I began thinking more carefully about the relationship between a user's objective, the information displayed and the behaviour expected from the interface.
 
-### The Leadership Challenge
+The logbook also helped me understand why acceptance criteria should be considered before implementation.
 
-As Project Lead, I also learned that breaking work into tasks does not automatically guarantee delivery.
-
-There were periods when participation was inconsistent and deadlines were missed.
-
-This could be frustrating, particularly when I was also responsible for substantial frontend development.
-
-The experience taught me that tasks need clear ownership, expectations and follow-up.
-
-I realised that coordinating development requires more than asking whether work has been completed. It also means understanding whether the assigned person knows what is expected and whether something is preventing progress.
-
-### What I Would Improve
-
-If I were approaching a similar project again, I would strengthen the relationship between user stories and development tasks by:
-
-1. Giving each user story a unique identifier.
-2. Linking every development task to its parent user story.
-3. Defining testable acceptance criteria before implementation.
-4. Making task ownership and deadlines explicit.
-5. Reviewing progress regularly instead of waiting until deadlines are missed.
-6. Recording whether each story has been implemented, tested and accepted.
-
-These are improvements I would introduce in future projects, rather than claims that all of these practices were consistently followed during AquaLink.
+Clear criteria reduce uncertainty and provide a stronger basis for testing.
 
 ---
 
-## 07. What This Experience Taught Me
+## 09. What I Would Improve
 
-AquaLink taught me that good frontend development begins long before the interface is written.
+In future projects, I would strengthen the user-story process by:
 
-It begins with understanding the user.
+1. Giving every user story a unique identifier from the beginning.
+2. Recording acceptance criteria before implementation.
+3. Linking Trello tasks directly to their parent user stories.
+4. Connecting completed stories to screenshots and test results.
+5. Recording whether a feature has been implemented, tested and accepted.
+6. Distinguishing frontend completion from full system integration.
+7. Reviewing requirements with the relevant users or stakeholders where possible.
 
-My responsibility was not simply to make AquaLink visually appealing. It was to help turn our requirements into an application that people could understand and interact with.
+These improvements would make the relationship between requirements and delivered functionality easier to verify.
 
-And as a leader, I learned that successful implementation depends on both technical work and the people responsible for delivering it.
+---
 
-**A user story gives a feature its purpose. The development process gives that purpose a practical form.**
+## 10. Connection to Agile Practice
+
+The Scrum Guide explains that the Product Backlog is an ordered list of work needed to improve a product and that backlog refinement involves breaking work into smaller, more precise items (Schwaber and Sutherland, 2020).
+
+This principle connects directly to my experience of translating AquaLink requirements into application screens and development activities.
+
+I learned that smaller, clearer requirements are easier to implement, review and test.
+
+### Reference
+
+Schwaber, K. and Sutherland, J. (2020) *The Scrum Guide: The Definitive Guide to Scrum: The Rules of the Game*. Available at: https://scrumguides.org/scrum-guide.html (Accessed: 7 November 2026).
+
+---
+
+## 11. Final Reflection
+
+AquaLink taught me that successful frontend development begins with understanding the user's objective.
+
+User stories helped connect the purpose of the application to the work required to build it.
+
+Acceptance criteria helped me appreciate the difference between creating a screen and delivering a feature that satisfies its intended purpose.
+
+As a developer, I want to carry this understanding into future projects by building interfaces that are not only visually appealing, but also clear, functional and testable.
+
+**A user story defines the purpose of a feature. Acceptance criteria help determine whether that purpose has been achieved.**
 
 ---
 

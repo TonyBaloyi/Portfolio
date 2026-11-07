@@ -7,82 +7,126 @@ permalink: /product-backlog.html
 
 <div class="page-content" markdown="1">
 
-<span class="eyebrow">Agile Portfolio · Planning & Prioritisation</span>
+<span class="eyebrow">Agile Portfolio · Product Planning & Prioritisation</span>
 
 # Product Backlog
 
-### Turning our vision into a structured development plan.
+### Deciding what matters, what comes first, and what remains.
 
-AquaLink began with an ambitious goal: to explore how technology could improve community water distribution and management.
+AquaLink was an ambitious project with several interconnected features.
 
-However, a vision alone does not tell a development team what to build first.
+Our proposed solution included administration, household management, suppliers, water tanks, subscriptions, purchases, monitoring and alerts.
 
-We needed to identify features, organise requirements, understand dependencies and make decisions about what could realistically be delivered.
+The challenge was not simply identifying these features.
 
-Our Product Backlog became a central place for organising that work.
+It was understanding their dependencies, organising the work and making realistic decisions about what could be delivered.
+
+As Project Lead and a substantial frontend contributor, I experienced the importance of these decisions throughout development.
 
 ---
 
-## 01. Why We Needed a Product Backlog
+## 01. The Purpose of Our Product Backlog
 
-Our proposed solution involved several interconnected areas:
+The Product Backlog provided an organised view of the work required to develop AquaLink.
 
-- Administration and platform management.
-- Household information.
-- Water suppliers and infrastructure.
-- Subscription and payment-related features.
-- Monitoring, readings and alerts.
-- Shared application functionality.
-- Database and external service integration.
+Our project records show that backlog activities were reviewed during requirements analysis, frontend implementation, testing and final preparation.
 
-These areas could not all be completed simultaneously.
+The original Agile Logbook includes a taskboard that separates:
 
-The backlog helped us break a large project into manageable pieces and make the work visible.
+- Product Backlog / Remaining
+- In Progress / Immediate Focus
+- Completed
+
+This distinction helped us understand the difference between work that had already been recorded as complete and work that still required attention.
 
 <div class="story-panel">
 
-<span class="eyebrow">The Planning Principle</span>
+<span class="eyebrow">A Key Development Lesson</span>
 
-### A feature is not complete simply because it has been designed.
+### An interface can be complete while an integration remains outstanding.
 
-AquaLink required us to distinguish between an interface that had been implemented, a feature connected to persistent data, and functionality dependent on an external service or physical hardware.
+One of the most important distinctions in our backlog was separating completed application screens from live database, payment-provider and physical sensor integrations.
 
-Understanding these differences became important when reviewing our progress.
+This prevented the scope of the working application from being confused with the full future vision of AquaLink.
 
 </div>
 
 ---
 
-## 02. Our Product Backlog
+## 02. Original Backlog Priorities
 
-Our Trello evidence shows a Product Backlog containing development items across administration, supplier operations, shared styling and integration.
+The original Agile Logbook contains a prioritised list of remaining work.
 
-The Agile Logbook also records completed application screens and outstanding technical dependencies.
+The following table reproduces its priority categories in a more accessible portfolio format.
 
-| Workstream | Backlog Items | Status in October Logbook |
+| Priority | Backlog Item | Recorded Requirement |
 |---|---|---|
-| Administration | Admin dashboard | Recorded as completed |
-| Household Management | Household list and detail screens | Recorded as completed |
-| Plans and Purchases | Plan management and purchase-related screens | Recorded as completed |
-| Supplier Operations | Tank overview and detail screens | Recorded as completed |
-| Supplier Operations | Refill history | Recorded as completed |
-| Monitoring | Supplier and sensor alert screens | Recorded as completed |
-| Shared Frontend | Global, Admin and Supplier styling | Recorded as completed |
-| Shared Functionality | Navigation and reusable application logic | Recorded as completed |
-| Data Integration | Real database/API integration and CRUD verification | Remaining work in dated logbook |
-| Payments | External payment provider integration | Remaining work in dated logbook |
-| IoT Monitoring | Physical sensor and hardware readings | Remaining work in dated logbook |
-| Project Delivery | Documentation and final presentation | Finalisation activities recorded |
+| P1 | Real database integration | Connect the interface to persistent backend data and verify CRUD workflows |
+| P1 | Payment integration | Implement and test a real payment-provider workflow where the required setup is available |
+| P1 | IoT and hardware integration | Connect physical sensors or clearly label simulated readings |
+| P1 | Final documentation and submission | Complete setup instructions, architecture, testing evidence and limitations |
+| P1 | Demo presentation | Prepare and rehearse a reliable walkthrough |
+| P1 | Live presentation | Present the business idea, architecture, application and future integrations |
+| P2 | Mobile application development | Treat as a future enhancement unless specifically required |
 
-**Important:** These statuses reflect the dated Agile Logbook, not a fresh verification of the currently deployed application. Some integration work progressed after the logbook period.
+**Source:** AquaLink Agile Logbook, Product Backlog / Remaining taskboard.
+
+These priorities were organised around dependencies and the presentation milestone of 3 November 2026.
+
+The distinction between P1 and P2 was especially important because the team had limited time to complete finalisation activities.
 
 ---
 
-## 03. How We Approached Prioritisation
+## 03. Completed Product Backlog Items
 
-Our project records demonstrate that work was organised into backlog and sprint activities.
+The logbook taskboard records the following work as completed during the documented project period.
 
-For this portfolio, the work can be understood through three planning considerations.
+### Requirements and Architecture
+
+- User stories and acceptance criteria.
+- Database schema design.
+
+The schema design was recorded as complete, while live database integration remained a separate task.
+
+### Shared Application Components
+
+- Global stylesheet and shared logic.
+- Admin stylesheet, shared logic and error page.
+- Supplier stylesheet and shared logic.
+- Integration and navigation bar.
+
+### Administrator Features
+
+- Admin dashboard.
+- Household list.
+- Household details.
+- Plans management.
+- Purchase page.
+
+### Supplier Features
+
+- Tanks overview.
+- Tank details.
+- Refill history.
+- Supplier alerts.
+- Sensor alerts.
+
+### Quality and Testing
+
+- Admin screen implementation and screen testing.
+- Supplier screen implementation and screen testing.
+- Application bug fixing and regression testing.
+- Browser and responsive testing.
+
+These completion statuses come from the original dated logbook and its taskboard.
+
+---
+
+## 04. How Dependencies Influenced Prioritisation
+
+Not all backlog items could be completed independently.
+
+Some features required other parts of the application to be available first.
 
 <div class="card-grid">
 
@@ -90,9 +134,9 @@ For this portfolio, the work can be understood through three planning considerat
 
 <span class="card-icon">01</span>
 
-### User-Facing Functionality
+### Frontend Dependencies
 
-The screens and interactions needed to demonstrate the platform's main roles and capabilities.
+Shared navigation, styling and reusable logic supported multiple Admin and Supplier screens.
 
 </div>
 
@@ -100,9 +144,9 @@ The screens and interactions needed to demonstrate the platform's main roles and
 
 <span class="card-icon">02</span>
 
-### Shared Foundations
+### Data Dependencies
 
-Navigation, consistent styling and reusable functionality that supported multiple application screens.
+Persistent household, supplier and subscription workflows depended on backend and database integration.
 
 </div>
 
@@ -110,128 +154,201 @@ Navigation, consistent styling and reusable functionality that supported multipl
 
 <span class="card-icon">03</span>
 
-### Technical Dependencies
+### External Dependencies
 
-Database integration, payment services and physical sensor connections that required additional implementation or verification.
-
-</div>
+Payment processing and physical sensor monitoring required services or hardware beyond the interface itself.
 
 </div>
 
-This grouping explains the dependencies visible in our work. It should not be interpreted as a formally documented numerical priority ranking.
+</div>
+
+These dependencies influenced how we interpreted progress.
+
+For example, the presence of a purchase page did not automatically establish that a real payment provider was connected.
+
+Similarly, a tank monitoring screen did not establish that physical sensors were transmitting live readings.
+
+This distinction helped us evaluate the product more accurately.
 
 ---
 
-## 04. My Contribution to Backlog Delivery
+## 05. Evidence of Backlog Refinement
 
-As Project Lead and a major frontend contributor, I experienced the relationship between backlog planning and implementation directly.
+The Agile Logbook provides dated examples of how the backlog was reviewed as the project developed.
 
-My frontend work focused on the appearance, usability and interactive features of AquaLink.
+| Date | Recorded Activity | Backlog Significance |
+|---|---|---|
+| 29 July 2026 | Organised requirements for plans, purchases, tank monitoring, refill history and alerts | Grouped features under the agreed backlog |
+| 31 July 2026 | Consolidated user-story scope and prepared development priorities | Prepared the next implementation activities |
+| 7 August 2026 | Consolidated UI feedback and mapped remaining screens to the backlog | Connected design review to outstanding tasks |
+| 5 October 2026 | Reviewed the completed application against user stories | Confirmed implemented screens and identified integration boundaries |
+| 22 October 2026 | Reviewed remaining work and task ownership | Supported final task tracking |
+| 29 October 2026 | Reviewed the 11-sprint roadmap and reprioritised remaining work | Focused attention on documentation, rehearsal and presentation |
 
-I wanted the application to feel coherent rather than like a collection of unrelated pages.
+**Primary evidence:** AquaLink Agile Logbook, dated entries.
 
-That meant paying attention to consistent styling, navigation, page structure and the way information was presented to users.
-
-However, the backlog also reminded me that visual progress was not the same as completing the entire system.
-
-A dashboard could look finished while its data integration was still being developed.
-
-A payment page could exist without a verified external payment provider.
-
-Recognising these differences helped me think more carefully about what it means to describe a feature as complete.
+[Download the Original Agile Logbook](evidence/documents/AquaLink_Agile_Logbook.docx)
 
 ---
 
-## 05. Original Product Backlog Evidence
+## 06. Prioritising the Final Delivery
 
-The screenshots below are from our original AquaLink Trello records.
+As the presentation milestone approached, the logbook identified a practical order for the remaining work.
 
-They are included so that the lecturer can inspect our planning evidence even if the Trello invitation link is inaccessible.
+<div class="story-panel">
 
-### Trello Product Backlog — Screenshot 1
+<span class="eyebrow">Final Delivery Priorities</span>
 
-![Original AquaLink Trello Product Backlog screenshot 1](evidence/trello/trello-01.jpg)
+### Protect the working application.
 
-### Trello Product Backlog — Screenshot 2
+**First:** Verify the completed Admin and Supplier screens and confirm the demonstration route.
 
-![Original AquaLink Trello Product Backlog screenshot 2](evidence/trello/trello-02.jpg)
+**Second:** Complete documentation and ensure that the business model and architecture match the implemented solution.
 
-### Trello Product Backlog — Screenshot 3
+**Third:** Test the presentation environment and explain which integrations are complete and which remain outstanding.
 
-![Original AquaLink Trello Product Backlog screenshot 3](evidence/trello/trello-03.jpg)
+**Fourth:** Rehearse the demonstration and keep mobile application development as a future enhancement.
 
-These images will appear once the original screenshots are uploaded to the evidence folder using the filenames shown above.
+</div>
+
+This sequence demonstrated an important prioritisation principle: introducing additional functionality late in development could create unnecessary risk.
+
+The immediate priority became presenting a stable, accurately described application.
+
+---
+
+## 07. Original Trello Evidence
+
+The following screenshots are from our original AquaLink Trello evidence collection.
+
+### Product Backlog Screenshot 01
+
+![AquaLink Trello Product Backlog evidence 01](evidence/trello/trello-01.jpg)
+
+### Product Backlog Screenshot 02
+
+![AquaLink Trello Product Backlog evidence 02](evidence/trello/trello-02.jpg)
+
+### Product Backlog Screenshot 03
+
+![AquaLink Trello Product Backlog evidence 03](evidence/trello/trello-03.jpg)
 
 ### Additional Evidence
 
-- [Open the Original Trello Board](https://trello.com/invite/b/6a61c8f1356d8a59c782231c/ATTIf9d9fdf7ec47fcd3745825ca9a054a2898604B70/aqualink)
-- [View the Sprint Backlog](sprint-backlog.html)
-- [View the Agile Logbook](agile-logbook.html)
-- [Explore the Evidence Gallery](evidence-gallery.html)
+- [Original Trello Board](https://trello.com/invite/b/6a61c8f1356d8a59c782231c/ATTIf9d9fdf7ec47fcd3745825ca9a054a2898604B70/aqualink)
+- [Original Agile Logbook](evidence/documents/AquaLink_Agile_Logbook.docx)
+- [Evidence Gallery](evidence-gallery.html)
+- [Sprint Backlog](sprint-backlog.html)
 
 ---
 
-## 06. The Challenge of Keeping Work on Track
+## 08. My Contribution to Backlog Delivery
 
-One of the difficulties I experienced as Project Lead was managing progress when team engagement was inconsistent.
+As a substantial frontend contributor, my work was closely connected to the implementation of AquaLink's user-facing features.
 
-There were times when deadlines were missed and I felt that some team members were not participating as actively as the project required.
+I focused on the appearance, structure and usability of the application.
 
-This was frustrating because I was also contributing heavily to frontend development.
+This included reviewing layouts, navigation, shared styling and the consistency of Admin and Supplier screens.
 
-The backlog could show what needed to be done, but it could not guarantee that the work would be completed.
+The logbook records frontend activities across August and September, including:
 
-I began to understand that a development plan only becomes useful when the team consistently acts on it.
+- Reviewing the Admin dashboard and household workflows.
+- Reviewing Supplier tank monitoring and alert interfaces.
+- Consolidating shared styles and application navigation.
+- Checking responsive behaviour and browser consistency.
+- Reviewing implemented screens against the agreed requirements.
 
-> A backlog makes responsibilities visible. Accountability is what turns those responsibilities into progress.
+As Project Lead, I also had to consider how frontend progress related to other development dependencies.
 
----
+A completed screen could still depend on data integration.
 
-## 07. My Personal Reflection
+A working navigation flow could still require further testing.
 
-The Product Backlog taught me an important lesson about the difference between ambition and delivery.
-
-At the beginning, I was excited about everything AquaLink could become.
-
-I wanted the frontend to look professional, the features to work properly and the finished solution to communicate the purpose behind the project.
-
-But software development requires decisions about time, dependencies and priorities.
-
-The backlog helped me understand that we could not treat every feature as equally urgent.
-
-It also exposed a leadership challenge: assigning work is not the same as ensuring that work progresses.
-
-When participation was inconsistent, I sometimes became frustrated because delays affected the team and increased the pressure on the work I was already doing.
-
-Looking back, I believe I could have managed this more effectively through earlier follow-ups, clearer deadlines and more explicit ownership of backlog items.
-
-### What I Would Improve
-
-In a future project, I would:
-
-1. Give every backlog item a clear priority.
-2. Assign a responsible owner to each task.
-3. Link backlog items to user stories and acceptance criteria.
-4. Record dependencies between frontend and backend work.
-5. Review incomplete items at regular intervals.
-6. Distinguish implemented interfaces from fully integrated features.
-7. Reprioritise work when deadlines or available resources change.
-
-These are lessons I would apply in future projects, rather than claims that every practice was formally implemented during AquaLink.
+These relationships helped me appreciate why backlog items need clear definitions of completion.
 
 ---
 
-## 08. What I Learned
+## 09. My Personal Reflection: Learning to Prioritise
 
-AquaLink taught me that a Product Backlog is more than a list of features.
+The Product Backlog taught me that successful development requires making difficult choices.
 
-It is a way of making a project's ambitions manageable.
+At the beginning of AquaLink, I was excited by the number of features the platform could eventually provide.
 
-As a frontend developer, it helped me understand where my work fitted into the larger system.
+I wanted the application to be visually professional, functional and capable of demonstrating the value of the solution.
 
-As Project Lead, it taught me the importance of balancing expectations with actual delivery.
+However, the development process showed me that not every feature could receive equal attention at every stage.
 
-**A successful project is not measured only by what we planned to build, but by how responsibly we managed the work required to build it.**
+Some tasks were essential to the demonstration.
+
+Others depended on external services.
+
+Some improvements could be deferred without preventing the team from presenting the core application.
+
+The decision to keep mobile application development as a future enhancement was a useful example.
+
+It showed that postponing a feature does not necessarily mean abandoning the idea.
+
+Sometimes it means protecting the quality and stability of the work that matters most at the current stage.
+
+### What I Learned About Completion
+
+One of the most valuable lessons was the difference between completing an interface and completing an end-to-end workflow.
+
+For example, a purchase page may look finished and allow the user to navigate through its intended interface.
+
+However, without a verified payment-provider integration, it should not be described as a fully operational payment system.
+
+The same principle applies to database persistence and physical sensor readings.
+
+This distinction changed how I think about reporting software progress.
+
+I learned that professional communication requires accurately describing what has been implemented, what has been tested and what remains dependent on other components.
+
+---
+
+## 10. What I Would Improve
+
+In a future project, I would strengthen Product Backlog management by:
+
+1. Assigning clear priority levels to every important backlog item.
+2. Defining acceptance criteria and a clear completion standard.
+3. Recording dependencies between frontend, backend and external integrations.
+4. Linking backlog items to relevant user stories and test evidence.
+5. Reviewing priorities when deadlines or resources change.
+6. Separating future enhancements from current delivery commitments.
+7. Recording why significant prioritisation decisions were made.
+
+These improvements would make backlog decisions easier to understand, defend and evaluate.
+
+---
+
+## 11. Connection to Agile Practice
+
+The Scrum Guide describes the Product Backlog as an ordered, evolving list of the work needed to improve a product (Schwaber and Sutherland, 2020).
+
+This principle connects directly to AquaLink because our priorities changed as the project approached its presentation milestone.
+
+The backlog was not simply a list of desired features.
+
+It became a way of identifying the most important remaining work and recognising the limits of what could realistically be demonstrated.
+
+### Reference
+
+Schwaber, K. and Sutherland, J. (2020) *The Scrum Guide: The Definitive Guide to Scrum: The Rules of the Game*. Available at: https://scrumguides.org/scrum-guide.html (Accessed: 7 November 2026).
+
+---
+
+## 12. Final Reflection
+
+AquaLink taught me that prioritisation is one of the most important responsibilities in software development.
+
+The Product Backlog helped connect our larger vision to practical development decisions.
+
+As a frontend contributor, it helped me understand how individual screens fitted into the broader application.
+
+As Project Lead, it helped me recognise the importance of managing dependencies, controlling scope and communicating progress accurately.
+
+**Good backlog management is not about building everything at once. It is about making informed decisions about what should be delivered next, and why.**
 
 ---
 

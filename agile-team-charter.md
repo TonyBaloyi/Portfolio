@@ -1,3 +1,4 @@
+
 ---
 layout: default
 title: Agile Team Charter
@@ -10,153 +11,255 @@ permalink: /agile-team-charter.html
 
 # Agile Team Charter
 
-### A shared purpose. Different responsibilities. One project.
+### Establishing shared purpose, responsibility and accountability.
 
-Building AquaLink required more than technical knowledge. It required a team capable of turning a shared vision into a working software solution.
+AquaLink was developed to explore how technology could support the management of water distribution in underserved communities.
 
-As Project Lead, I learned that bringing people together around an idea is one challenge. Keeping everyone engaged, accountable and moving in the same direction is another.
+As Project Lead, I was responsible for helping coordinate the development process while contributing substantially to the frontend.
+
+This required me to consider two connected responsibilities: how the team organised its work, and how I could contribute to delivering a functional, understandable application.
+
+Our collaboration was organised through project planning, Trello tasks, agreed requirements and development reviews.
+
+Although we did not produce a formally signed team charter, these working arrangements provide evidence of how we coordinated the project.
 
 ---
 
-## 01. Our Shared Vision
+## 01. Our Shared Purpose
 
-AquaLink was inspired by the need to improve access to water in underserved communities.
+Our common objective was to develop AquaLink: Smart Community Water Distribution and Management.
 
-Our goal was to develop a smart community water distribution and management solution that could support the administration of households, suppliers, subscriptions, water-related information and operational activities.
+The application was designed around Admin and Supplier roles, with functionality supporting households, water infrastructure, subscriptions, purchases and monitoring information.
 
-The project gave us an opportunity to apply the knowledge gained during our studies to a problem that matters beyond the classroom.
+Our shared goal was to translate this concept into an application that could be demonstrated and evaluated.
 
-> We wanted our education to become something useful to the communities that made it possible.
+<div class="story-panel">
 
-## 02. How Our Team Was Organised
+<span class="eyebrow">Project Purpose</span>
 
-Our project involved planning, frontend development, system architecture, backend development, integration, testing and presentation preparation.
+### Connecting Water. Empowering Communities.
 
-The team included:
+The purpose behind AquaLink was to apply our technical knowledge to a problem with social significance.
 
-| Team Member | Participation |
+For me, this purpose made the project more than an academic requirement. It was an opportunity to explore how the education I was receiving could contribute to communities facing real challenges.
+
+</div>
+
+---
+
+## 02. My Role in the Team
+
+<div class="card-grid">
+
+<div class="feature-card">
+
+<span class="card-icon">01</span>
+
+### Project Lead
+
+I helped coordinate development activities, monitor project progress, review priorities and follow up on work required for delivery.
+
+</div>
+
+<div class="feature-card">
+
+<span class="card-icon">02</span>
+
+### Frontend Contributor
+
+I contributed substantially to interface development, page layouts, visual consistency, navigation and the overall user experience.
+
+</div>
+
+</div>
+
+Balancing these responsibilities required me to understand both the technical work and the coordination necessary to keep the project moving.
+
+My role was not simply to assign tasks. It also involved understanding dependencies between features and recognising when unfinished work could affect later development or presentation activities.
+
+---
+
+## 03. Evidence of Team Coordination
+
+The AquaLink Agile Logbook provides dated evidence of the activities I recorded as Project Lead.
+
+The following entries are particularly relevant to team coordination and shared working expectations.
+
+| Date | Recorded Activity | Relevance to Team Coordination |
+|---|---|---|
+| 27 July 2026 | Reviewed project scope and agreed user stories | Establishing a shared understanding of requirements |
+| 31 July 2026 | Consolidated user-story scope and development priorities | Organising the work ahead |
+| 7 August 2026 | Consolidated UI feedback and mapped remaining screens to the backlog | Coordinating design and development activities |
+| 4 September 2026 | Checked shared components and navigation and noted inconsistencies | Reviewing work across application areas |
+| 22 October 2026 | Reviewed the remaining backlog and separated completed work from outstanding integrations | Making progress and remaining responsibilities visible |
+| 29 October 2026 | Reviewed the 11-sprint roadmap and reprioritised remaining work | Responding to the approaching presentation milestone |
+
+**Source:** AquaLink Agile Logbook, dated entries from 27 July to 29 October 2026.
+
+[View the Original Agile Logbook](evidence/documents/AquaLink_Agile_Logbook.docx)
+
+These records show how I approached planning, coordination and review throughout the project.
+
+---
+
+## 04. Our Working Arrangements
+
+The team used Trello and the project backlog to organise development work.
+
+The logbook records the following coordination practices:
+
+| Working Area | Documented Practice |
 |---|---|
-| Phatutshedzo Baloyi | Project Lead and substantial frontend development contribution |
-| Leroy Chakanyuka | AquaLink team member |
-| Umar Adams | AquaLink team member |
-| Mulokhari Dikhale | AquaLink team member |
+| Requirements | Reviewing agreed user stories and acceptance criteria |
+| Task Planning | Mapping development activities to backlog priorities |
+| Development Coordination | Reviewing dependencies between screens and application components |
+| Quality | Checking navigation, consistency, responsiveness and defects |
+| Progress Tracking | Recording completed work, planned activities and impediments |
+| Final Delivery | Reviewing remaining work and preparing for the presentation milestone |
 
-The individual technical responsibilities of other members should be confirmed against the team's records rather than assumed.
+These practices formed the basis of our collaboration.
 
-### My Responsibilities
+However, one limitation became clear: working arrangements are more effective when expectations about responsibility, communication and missed deadlines are explicitly documented and agreed upon.
 
-As Project Lead, my responsibilities included helping coordinate development activities, following up on tasks, monitoring progress and keeping the team focused on the project's objectives.
+---
 
-I was also heavily involved in frontend development.
+## 05. Original Supporting Evidence
 
-My contribution focused particularly on:
+### Trello Task Organisation
 
-- The visual appearance and overall presentation of AquaLink.
-- The layout and structure of frontend pages.
-- The user experience and interaction of frontend features.
-- Improving how users navigate and interact with the application.
-- Supporting the development of a coherent, demonstrable interface.
-- Coordinating and following up on project work.
+![AquaLink Trello task planning evidence](evidence/trello/trello-04.jpg)
 
-This meant balancing technical responsibilities with the demands of team leadership.
+*Original AquaLink Trello evidence. The board records project tasks and their organisation.*
 
-## 03. Our Informal Working Agreements
+### Agile Logbook — Project Coordination
 
-We did not create a formally signed Agile Team Charter at the beginning of the project.
+The logbook provides a second evidence source by documenting planning decisions and development reviews.
 
-Instead, our approach to collaboration developed through project planning, task allocation, Trello tracking and the activities recorded in our Agile Logbook.
+Particularly relevant entries include:
 
-The following table reconstructs the working practices reflected in our project evidence.
+**31 July 2026**
 
-| Area | How We Approached It |
-|---|---|
-| Shared objective | Develop and present AquaLink as a community water-management solution |
-| Task organisation | Break project work into user stories, backlog items and sprint activities |
-| Progress visibility | Use Trello to organise and monitor development tasks |
-| Documentation | Record project activities and progress in the Agile Logbook |
-| Development | Work on application features, interface design, integration and testing |
-| Quality | Review navigation, responsiveness, functionality and identified defects |
-| Project coordination | Follow up on responsibilities and progress during development |
+Consolidated the initial user-story scope and prepared subsequent development priorities.
 
-These practices describe how our work was organised. They are not being presented as a formal agreement signed by every team member.
+**7 August 2026**
 
-## 04. The Challenge of Team Accountability
+Consolidated UI feedback and mapped remaining screens to the backlog.
 
-One of the most difficult parts of leading AquaLink was dealing with inconsistent team engagement.
+**22 October 2026**
 
-There were times when cooperation was limited, deadlines were missed and participation did not meet the level I had hoped for.
+Reviewed the remaining backlog and distinguished completed application work from outstanding integration and delivery activities.
 
-As someone who cared deeply about the project, I found these situations frustrating.
+**29 October 2026**
 
-I was not only responsible for coordinating progress. I was also working extensively on the frontend, which meant that delays and incomplete tasks could affect my own development work.
+Reviewed the 11-sprint roadmap and reprioritised remaining work around documentation, rehearsal and presentation preparation.
 
-The experience made me realise that a team can share the same project objective without always sharing the same level of urgency or commitment.
+[Download the Complete Logbook](evidence/documents/AquaLink_Agile_Logbook.docx)
 
-> A task being assigned does not necessarily mean that it will be completed. Leadership requires follow-through, communication and accountability.
+[Explore All Trello Evidence](evidence-gallery.html)
 
-## 05. What I Would Improve
+---
 
-Looking back, I believe a formal team charter would have helped us establish clearer expectations from the beginning.
+## 06. Evaluating Our Team Agreements
 
-If I were leading a similar project again, I would introduce the following agreements at the start:
+Our planning records demonstrate that development activities were organised and reviewed.
 
-1. Clearly documented individual responsibilities.
-2. Agreed deadlines for each assigned task.
-3. Regular progress updates and sprint check-ins.
-4. Early communication when someone encounters a blocker.
-5. Clear procedures for handling incomplete work.
-6. Shared expectations for participation and accountability.
-7. Regular reviews of our working agreements.
+However, the experience also exposed limitations in how working expectations were established.
 
-These are improvements I would introduce in future projects, not claims that every one of these procedures was formally implemented during AquaLink.
+The most important weakness was not the absence of tasks. It was the lack of sufficiently explicit agreements about what should happen when work was delayed or responsibilities were not fulfilled.
 
-## 06. Supporting Evidence
+As Project Lead, I sometimes found it difficult to balance coordinating progress with completing my own frontend responsibilities.
 
-Our project records provide evidence of task organisation, team participation and development planning.
+This taught me that a project can have a backlog, development schedule and shared objective while still needing stronger team agreements.
 
-### Trello Task Allocation
+<div class="story-panel">
 
-The screenshot below is part of our original Trello evidence collection.
+<span class="eyebrow">My Main Learning</span>
 
-![AquaLink Trello task allocation](evidence/trello/trello-04.jpg)
+### Task visibility is not the same as accountability.
 
-*Original Trello screenshot showing project planning and task organisation.*
+Trello made project work visible.
 
-### Original Project Records
+However, effective collaboration also required clear ownership, realistic expectations, communication and a shared understanding of how the team should respond to difficulties.
 
-- [View the AquaLink Trello Board](https://trello.com/invite/b/6a61c8f1356d8a59c782231c/ATTIf9d9fdf7ec47fcd3745825ca9a054a2898604B70/aqualink)
-- [View the Agile Logbook](agile-logbook.html)
-- [Explore the Evidence Gallery](evidence-gallery.html)
-
-The screenshot will display once the original image is uploaded to the specified evidence folder.
+</div>
 
 ---
 
 ## 07. My Personal Reflection
 
-The Agile Team Charter section represents one of the most important lessons I learned during AquaLink.
+The Team Charter criterion made me reflect on something I had underestimated at the beginning of AquaLink: the importance of establishing expectations before problems arise.
 
-Before this project, I understood leadership largely as organising people and ensuring that work was assigned.
+I entered the project with a strong sense of purpose.
 
-During development, I began to understand how much more complicated leadership could become when participation was inconsistent.
+I wanted us to build an application that was technically meaningful and professionally presented.
 
-There were moments when I felt frustrated because I wanted the team to progress, yet some responsibilities were not being completed when expected.
+I also wanted to contribute directly to the frontend, particularly the visual experience and functionality of the application.
 
-At the same time, I had my own frontend responsibilities. I wanted AquaLink to look professional, feel intuitive and demonstrate the value of the solution we were proposing.
+But leadership required a different kind of attention.
 
-Balancing these responsibilities was challenging.
+It required me to think about how responsibilities were understood, how progress was communicated and what happened when development did not proceed as expected.
 
-What I learned is that passion for a project is not enough on its own. A team also needs clear expectations, communication and accountability.
+Looking back, I believe we would have benefited from establishing a clearer agreement at the beginning of the project.
 
-I also learned that frustration, although understandable, does not solve a coordination problem. A project lead must find ways to address difficulties constructively.
+A formal charter would not necessarily have prevented every difficulty. However, it could have provided a shared reference point for responsibilities, communication and accountability.
 
-In future, I want to become a leader who establishes expectations earlier, identifies delays sooner and creates an environment where every team member understands both their responsibilities and their contribution to the shared goal.
+The experience changed how I understand leadership.
 
-AquaLink taught me that **leadership is not simply about directing work. It is about creating the conditions in which people can work effectively together.**
+I no longer see team coordination as simply ensuring that tasks exist on a board.
+
+I see it as establishing the expectations and working conditions that help people contribute effectively.
 
 ---
 
-[← Back to Home]({{ '/' | relative_url }})
+## 08. What I Would Establish in Future Projects
+
+Based on this experience, I would introduce the following team agreements during project initiation.
+
+| Agreement | Intended Benefit |
+|---|---|
+| Defined responsibilities | Reduce uncertainty about task ownership |
+| Agreed deadlines | Establish realistic delivery expectations |
+| Regular progress updates | Identify problems earlier |
+| Blocker reporting | Encourage early communication about difficulties |
+| Task acceptance criteria | Establish a shared definition of completion |
+| Escalation arrangements | Provide a constructive response to missed commitments |
+| Sprint retrospectives | Support continuous improvement |
+
+This table is my retrospective proposal for improving future teamwork, not a historical signed charter.
+
+---
+
+## 09. Connection to Agile Practice
+
+The Scrum Guide emphasises transparency, inspection and adaptation as foundations of Scrum (Schwaber and Sutherland, 2020).
+
+These principles are relevant to my experience because project coordination required more than tracking completed tasks.
+
+It required making progress visible, identifying difficulties and adjusting priorities when necessary.
+
+The experience helped me appreciate why effective Agile collaboration depends on both technical organisation and shared responsibility.
+
+### Reference
+
+Schwaber, K. and Sutherland, J. (2020) *The Scrum Guide: The Definitive Guide to Scrum: The Rules of the Game*. Available at: https://scrumguides.org/scrum-guide.html (Accessed: 7 November 2026).
+
+---
+
+## 10. Final Reflection
+
+AquaLink taught me that leadership begins with clarity.
+
+A team needs a shared purpose, but it also needs a shared understanding of how people will work together.
+
+The project helped me recognise the importance of establishing expectations early, communicating responsibilities clearly and responding constructively when progress becomes difficult.
+
+As a future IT professional, I want to carry these lessons into every team I join or lead.
+
+**A shared vision gives a team direction. Clear agreements help turn that vision into coordinated action.**
+
+---
+
+[← Our Story](our-story.html)
 
 [Next: User Stories and Tasks →](user-stories-and-tasks.html)
 

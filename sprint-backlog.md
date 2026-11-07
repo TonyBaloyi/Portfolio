@@ -1,3 +1,4 @@
+
 ---
 layout: default
 title: Sprint Backlog
@@ -6,285 +7,346 @@ permalink: /sprint-backlog.html
 
 <div class="page-content" markdown="1">
 
-<span class="eyebrow">Agile Portfolio · Sprint Planning & Execution</span>
+<span class="eyebrow">Agile Portfolio · Sprint Planning & Delivery</span>
 
 # Sprint Backlog
 
-### From an ambitious idea to a working application.
+### Turning planned work into measurable development progress.
 
-When we began AquaLink, we had a vision of using technology to improve the management of community water distribution.
+AquaLink required the coordination of multiple development activities, from requirements analysis and frontend implementation to testing and presentation preparation.
 
-However, turning that vision into software required a structured development process.
+As Project Lead and a substantial frontend contributor, I experienced how important it was to organise work into manageable stages.
 
-We could not build every feature simultaneously. We needed to divide the project into smaller areas of work, understand the dependencies between tasks and monitor progress as development continued.
+The Sprint Backlog helped us focus on immediate development priorities while maintaining an understanding of the wider product objectives.
 
-Our sprint planning helped us organise that journey.
+The original Agile Logbook documents an 11-sprint roadmap and provides dated records of completed activities, planned work and impediments.
 
 ---
 
-## 01. Understanding Our Sprint Process
+## 01. Understanding Our Sprint Planning
 
-The Product Backlog represented the broader work required for AquaLink.
+The purpose of sprint planning was to identify the work that needed attention during a particular development period.
 
-The Sprint Backlog focused on the activities selected for particular stages of development.
+For AquaLink, this involved:
 
-We used Trello to organise sprint-related tasks, while our Agile Logbook recorded work completed, planned activities and development impediments.
+- Reviewing user stories and requirements.
+- Identifying development priorities.
+- Organising frontend implementation.
+- Reviewing dependencies between features.
+- Monitoring progress and impediments.
+- Testing completed screens and navigation.
+- Preparing for the final presentation.
 
-Together, these records help explain how the project progressed.
+The project was developed through successive workstreams rather than attempting every feature simultaneously.
 
 <div class="story-panel">
 
-<span class="eyebrow">Our Development Approach</span>
+<span class="eyebrow">My Main Learning</span>
 
-### Plan. Develop. Review. Improve.
+### Planning work is different from completing work.
 
-Our work progressed through requirements, interface design, system architecture, frontend implementation, integration, testing and finalisation.
+A sprint plan creates direction, but progress must be evaluated against what was actually achieved.
 
-Not every stage progressed without difficulty, but dividing the work into smaller activities helped make the project more manageable.
+I learned that effective sprint management requires realistic commitments, visible progress and the willingness to adapt when circumstances change.
 
 </div>
 
 ---
 
-## 02. Our Sprint Journey
+## 02. Our Development Timeline
 
-The supplied Trello screenshots show sprint-labelled work through Sprint 8.
+The original logbook records development activities between 27 July and 29 October 2026.
 
-Our Agile Logbook also refers to a broader 11-sprint roadmap. For clarity, this section presents the eight sprint areas visible in the supplied screenshot evidence.
+The following table groups these documented activities into their major workstreams.
 
-The dates below indicate corresponding periods of work in the logbook. They are not independently verified formal sprint start and end dates.
+It is a summary of the recorded timeline, not a replacement for the original 11-sprint schedule.
 
-| Sprint | Main Focus | Related Logbook Period |
+| Period | Recorded Workstream | Main Activities |
 |---|---|---|
-| Sprint 1 | Requirements and User Stories | 27–31 July 2026 |
-| Sprint 2 | Agile Design and Initial Prototype | 3–7 August 2026 |
-| Sprint 3 | System Architecture and Database | 10–14 August 2026 |
-| Sprint 4 | Frontend Development | 17–28 August 2026 |
-| Sprint 5 | Integration and Feature Completion | 31 August–11 September 2026 |
-| Sprint 6 | Business Models and Presentation | Presentation-related activities recorded later in the logbook |
-| Sprint 7 | Final Development | Development and stabilisation work recorded during September–October |
-| Sprint 8 | Quality Assurance and Final Presentation | Testing and presentation preparation recorded during September–October |
+| 27–31 July | Requirements and user stories | Scope, acceptance criteria, workflows and priorities |
+| 3–7 August | UI/UX foundations | Visual consistency, reusable components and screen requirements |
+| 10–14 August | Architecture and data | System architecture, database entities and integration dependencies |
+| 17–21 August | Admin implementation | Dashboard, households, plans and purchase workflows |
+| 24–28 August | Supplier operations | Tanks, refill history and alerts |
+| 31 August–4 September | Shared components | Styling, common logic and navigation |
+| 7–11 September | Screen integration | Navigation and consistency between application screens |
+| 14–18 September | Application review | Checking implemented screens against requirements |
+| 21–25 September | Quality checks | Admin and Supplier testing activities |
+| 28 September–2 October | Bug fixing and responsiveness | Regression, responsive layouts and browser checks |
+| 5–9 October | Integration boundaries | Reviewing completed screens and outstanding integrations |
+| 12–16 October | Documentation | Business model, architecture and supporting materials |
+| 19–23 October | Demo preparation | Demonstration routes, presentation content and task review |
+| 26–29 October | Final review | Reprioritisation, documentation and presentation readiness |
 
-These stages reflect the progression documented in our project records rather than a claim that every sprint was completed precisely on schedule.
+**Source:** AquaLink Agile Logbook, dated entries from 27 July to 29 October 2026.
+
+[Download the Original Agile Logbook](evidence/documents/AquaLink_Agile_Logbook.docx)
 
 ---
 
-## 03. The Development Timeline
+## 03. Evidence of Planned Work and Impediments
+
+The Agile Logbook followed three recurring questions:
+
+1. What did I complete since the last stand-up?
+2. What am I planning to complete before the next stand-up?
+3. What are my impediments, risks or problems?
+
+This structure helped connect recorded progress with the next development activities.
+
+### Example A: Requirements Planning
+
+**27 July 2026**
+
+**Completed:** Reviewed the AquaLink scope and agreed user stories.
+
+**Planned:** Refine acceptance criteria and confirm required workflows.
+
+**Impediment:** Some acceptance criteria depended on clarification of operational workflows.
+
+**My learning:** Requirements uncertainty can affect later implementation. Resolving it early reduces unnecessary rework.
+
+### Example B: Frontend Development
+
+**17 August 2026**
+
+**Completed:** Worked through the Admin dashboard story and refined the layout for operational summaries and navigation.
+
+**Planned:** Continue with household list and household details workflows.
+
+**Impediment:** Dashboard information needed to remain readable and consistent with the data model.
+
+**My learning:** Frontend tasks are connected. Decisions about shared information and navigation can influence several screens.
+
+### Example C: Responsive Testing
+
+**30 September 2026**
+
+**Completed:** Reviewed Supplier pages at desktop and smaller widths, focusing on tank, refill and alert information.
+
+**Planned:** Complete responsive checks and adjust layouts where necessary.
+
+**Impediment:** The interface needed to remain usable rather than simply shrink to fit.
+
+**My learning:** A visually complete interface still requires testing under different conditions.
+
+### Example D: Final Reprioritisation
+
+**29 October 2026**
+
+**Completed:** Reviewed the 11-sprint roadmap and reprioritised remaining work around documentation, rehearsal and the presentation.
+
+**Planned:** Confirm final Trello statuses, rehearse and agree on immediate post-presentation priorities.
+
+**Impediment:** The approaching presentation required controlled scope and clear disclosure of unfinished integrations.
+
+**My learning:** Sprint priorities must respond to delivery constraints without hiding outstanding work.
+
+---
+
+## 04. Connecting Sprint Activities to Deliverables
+
+The following table connects documented development activities to the deliverables recorded in the logbook taskboard.
+
+| Development Area | Related Deliverables | Recorded Outcome |
+|---|---|---|
+| Requirements | User stories and acceptance criteria | Completed |
+| UI foundations | Global, Admin and Supplier styling | Completed |
+| Admin screens | Dashboard, households, plans and purchase pages | Screen implementation completed |
+| Supplier screens | Tanks, refill history and alert pages | Screen implementation completed |
+| Navigation | Shared navigation and page routes | Completed |
+| Quality | Screen, browser, responsive and regression testing | Recorded as completed |
+| Data integration | Persistent backend/database workflows | Remaining in the dated taskboard |
+| Payments | Real payment-provider workflow | Remaining in the dated taskboard |
+| IoT | Physical sensor integration | Remaining in the dated taskboard |
+| Final delivery | Documentation, rehearsal and presentation | Finalisation activities recorded |
+
+The table reflects the status recorded in the logbook, rather than claiming that all planned integrations were operational.
+
+---
+
+## 05. How We Responded to Dependencies
+
+Some development activities could not be evaluated independently.
+
+For example, the tank monitoring interface could be designed and reviewed without physical sensors being connected.
+
+Similarly, a purchase page could be implemented before a real payment-provider workflow was available.
 
 <div class="card-grid">
 
 <div class="feature-card">
+
 <span class="card-icon">01</span>
 
-### Requirements
+### Interface Dependencies
 
-We reviewed the project's scope, identified user needs and organised the functionality required for Admin and Supplier workflows.
+Shared styling, navigation and components affected multiple screens.
 
 </div>
 
 <div class="feature-card">
+
 <span class="card-icon">02</span>
 
-### Interface Design
+### Backend Dependencies
 
-We considered the visual direction, page layouts, navigation and reusable components needed to create a consistent application.
+Persistent data workflows required functioning backend services and database integration.
 
 </div>
 
 <div class="feature-card">
+
 <span class="card-icon">03</span>
 
-### Architecture
+### External Dependencies
 
-We reviewed the proposed database entities, system components and relationships between the frontend, backend and future integrations.
-
-</div>
-
-<div class="feature-card">
-<span class="card-icon">04</span>
-
-### Frontend Development
-
-We developed the application's main screens, including Admin and Supplier functionality, navigation and shared interface elements.
-
-</div>
-
-<div class="feature-card">
-<span class="card-icon">05</span>
-
-### Integration
-
-We reviewed connected workflows, shared application behaviour and the technical dependencies required for persistent data and external services.
-
-</div>
-
-<div class="feature-card">
-<span class="card-icon">06</span>
-
-### Quality & Delivery
-
-We reviewed functionality, responsiveness, navigation, defects, documentation and the application demonstration.
+Payment services and physical sensor readings depended on additional integration work.
 
 </div>
 
 </div>
+
+These dependencies influenced how development progress was assessed.
+
+They also demonstrated why unfinished integration work needed to remain visible even after the related frontend screens were completed.
 
 ---
 
-## 04. My Frontend Development Contribution
+## 06. Original Trello Sprint Evidence
 
-One of my most substantial contributions to AquaLink was frontend development.
+The original Trello board was used to organise and monitor project work.
 
-I worked extensively on how the application looked, felt and behaved.
+### Sprint Planning and Task Progress
 
-This meant thinking about the experience of using AquaLink, not simply whether a page existed.
+![AquaLink Trello sprint evidence 05](evidence/trello/trello-05.jpg)
 
-My work involved the appearance and functionality of the frontend, including:
+*Original AquaLink Trello screenshot from the project evidence collection.*
 
-- Page layouts and visual presentation.
-- Navigation between application screens.
-- Consistent styling and reusable interface patterns.
-- User-facing interactions and features.
-- Improving readability and the organisation of information.
-- Reviewing the interface as the application grew.
+![AquaLink Trello sprint evidence 06](evidence/trello/trello-06.jpg)
 
-The development process taught me that frontend work becomes more demanding as the number of pages increases.
+*Original AquaLink Trello screenshot showing project work.*
 
-A styling change in one shared component can affect several screens.
+### Additional Sprint Evidence
 
-Navigation must remain consistent.
+![AquaLink Trello sprint evidence 07](evidence/trello/trello-07.jpg)
 
-A feature that looks correct on a desktop may behave differently on a smaller screen.
+*Additional original Trello evidence.*
 
-These considerations became part of my responsibility as a developer.
-
----
-
-## 05. Original Sprint Backlog Evidence
-
-The following screenshots come from our original AquaLink Trello records.
-
-They provide visual evidence of sprint-labelled lists, assigned work and task tracking.
-
-### Sprint Planning Evidence
-
-![AquaLink Trello sprint screenshot 04](evidence/trello/trello-04.jpg)
-
-*Original Trello screenshot from the sprint planning evidence collection.*
-
-![AquaLink Trello sprint screenshot 05](evidence/trello/trello-05.jpg)
-
-*Additional sprint task evidence from the original Trello board.*
-
-### Development Progress Evidence
-
-![AquaLink Trello sprint screenshot 08](evidence/trello/trello-08.jpg)
-
-*Original screenshot showing development planning and progress records.*
-
-### Later Sprint Evidence
-
-![AquaLink Trello sprint screenshot 15](evidence/trello/trello-15.jpg)
-
-*Original screenshot from the later sprint evidence collection.*
-
-These images will become visible when the original screenshot files are uploaded to the evidence folder.
-
-### Supporting Sources
+### Supporting Artefacts
 
 - [Original AquaLink Trello Board](https://trello.com/invite/b/6a61c8f1356d8a59c782231c/ATTIf9d9fdf7ec47fcd3745825ca9a054a2898604B70/aqualink)
-- [Product Backlog](product-backlog.html)
-- [Agile Logbook](agile-logbook.html)
+- [Original Agile Logbook](evidence/documents/AquaLink_Agile_Logbook.docx)
 - [Evidence Gallery](evidence-gallery.html)
+- [Product Backlog](product-backlog.html)
 
 ---
 
-## 06. Challenges During Sprint Execution
+## 07. My Individual Contribution
 
-As Project Lead, I learned that planning a sprint and successfully completing it are two different things.
+My responsibilities connected project coordination with frontend development.
 
-One of the biggest challenges I experienced was inconsistent participation from some team members.
+As a frontend contributor, I focused on implementing and improving the user-facing application.
 
-There were occasions when deadlines were missed, cooperation was limited and engagement was lower than I expected.
+The logbook records work involving:
 
-This was frustrating.
+- Admin dashboard layout and navigation.
+- Household list and detail workflows.
+- Supplier tank and alert interfaces.
+- Shared styles and reusable components.
+- Navigation between application screens.
+- Responsive and browser-related reviews.
 
-I cared deeply about the project and wanted us to produce something meaningful. At the same time, I had significant frontend development responsibilities.
+As Project Lead, I also needed to monitor the relationship between planned activities and the project's delivery requirements.
 
-When work did not progress as expected, I sometimes felt pressure to follow up repeatedly while continuing with my own tasks.
+This required me to consider whether the immediate workload was realistic and whether dependencies could prevent progress.
 
-The experience made me understand how easily a development schedule can be affected by communication and accountability problems.
+I learned that development progress cannot be measured only by the number of screens completed.
 
-> A sprint plan can organise the work, but it cannot replace the commitment required to complete it.
-
----
-
-## 07. The Difference Between Progress and Completion
-
-Another important lesson was learning to evaluate progress accurately.
-
-During AquaLink's development, some application screens reached a completed state before all external integrations were available.
-
-For example, the dated logbook distinguishes completed Admin and Supplier screens from remaining database, payment-provider and physical sensor integration work.
-
-This distinction matters because a working interface does not automatically mean every underlying service is fully connected.
-
-The project continued evolving after the October logbook period, so the logbook should be understood as a dated record rather than a final audit of the deployed system.
-
-As a developer and Project Lead, I learned the importance of communicating these differences clearly.
+It must also consider functionality, quality and readiness for integration.
 
 ---
 
-## 08. My Personal Reflection
+## 08. My Reflection: Capacity and Adaptation
 
-The Sprint Backlog represents one of the most demanding parts of my AquaLink experience.
+The Sprint Backlog helped me understand the difference between ambition and realistic planning.
 
-I was responsible for helping coordinate the team's progress while also contributing heavily to the frontend.
+At the beginning of a development project, it is easy to focus on everything the application could eventually achieve.
 
-I wanted AquaLink to be visually professional, functional and worthy of the purpose that inspired it.
+However, time and development capacity are limited.
 
-But I also had to confront the reality that not every team member would always participate at the same level.
+As the AquaLink project progressed, I began to appreciate the importance of matching planned activities to the time and resources available.
 
-Sometimes that frustrated me.
+One of the clearest examples came during the final development period.
 
-I found myself thinking about deadlines, incomplete responsibilities and the amount of work still required.
+The application screens had been recorded as completed, but external integrations and presentation activities still required attention.
 
-Looking back, I realise that effective leadership involves responding to those difficulties rather than simply becoming frustrated by them.
+At that point, continuing to expand the scope could have introduced additional risks.
 
-### What I Would Do Differently
+The more responsible decision was to concentrate on application stability, documentation and demonstration readiness.
 
-If I were leading another project, I would:
+This taught me that adapting a plan is not necessarily a sign of failure.
 
-1. Establish clearer sprint goals at the beginning of each sprint.
-2. Agree on realistic deadlines with individual task owners.
-3. Introduce more consistent progress check-ins.
-4. Identify blocked tasks earlier.
-5. Record incomplete work and carry it into the next sprint transparently.
-6. Review the team's available capacity before assigning work.
-7. Hold short retrospectives to identify improvements.
-8. Make a clearer distinction between completed frontend work and fully integrated features.
+It can be evidence of better judgement when the adjustment is informed by actual progress and remaining constraints.
 
-These are improvements I would introduce in future projects, not claims that every practice was formally followed during AquaLink.
+### The Importance of Reviewing Progress
+
+I also learned that simply moving a task into a completed category does not tell the whole story.
+
+A task should be evaluated against its expected outcome.
+
+For example, a completed interface and a verified end-to-end workflow represent different levels of delivery.
+
+Recognising this distinction made me more careful about how I understood and communicated development progress.
 
 ---
 
-## 09. What the Experience Taught Me
+## 09. What I Would Improve
 
-AquaLink taught me that Agile development is not simply about dividing a project into sprints.
+In future Agile projects, I would strengthen sprint management by:
 
-It is about learning, adjusting and responding to the reality of the work.
+1. Establishing a clear Sprint Goal for every sprint.
+2. Estimating work against the team's realistic capacity.
+3. Breaking larger features into smaller, verifiable tasks.
+4. Recording task owners and dependencies.
+5. Reviewing incomplete work at the end of each sprint.
+6. Recording actual sprint outcomes against planned commitments.
+7. Holding structured sprint reviews and retrospectives.
+8. Using the lessons from each sprint to improve the next.
 
-Some of my most important lessons came from the difficulties rather than the successes.
+These improvements would help create a more reliable relationship between sprint planning and delivery.
 
-I learned that leadership requires patience.
+---
 
-I learned that technical progress depends on communication.
+## 10. Connection to Agile Practice
 
-I learned that a development plan must be realistic.
+According to the Scrum Guide, the Sprint Backlog consists of the Sprint Goal, the selected Product Backlog items and an actionable plan for delivering them (Schwaber and Sutherland, 2020).
 
-And I learned that my responsibility as Project Lead was not simply to push the team towards a deadline, but to understand what was preventing progress and how we could respond.
+The Guide also explains that the Sprint Backlog is updated as more is learned during a sprint.
 
-**A sprint is not just a period of work. It is an opportunity to learn how to work better.**
+This connects to my AquaLink experience because development planning required ongoing attention to progress, impediments and changing priorities.
+
+However, our dated logbook is stronger evidence of recorded development activity than of formal Scrum ceremonies.
+
+In future projects, I would document sprint goals, review outcomes and retrospective actions more explicitly.
+
+### Reference
+
+Schwaber, K. and Sutherland, J. (2020) *The Scrum Guide: The Definitive Guide to Scrum: The Rules of the Game*. Available at: https://scrumguides.org/scrum-guide.html (Accessed: 7 November 2026).
+
+---
+
+## 11. Final Reflection
+
+The Sprint Backlog taught me that effective development requires both planning and adaptation.
+
+I learned to appreciate the importance of manageable tasks, realistic commitments and regular progress reviews.
+
+As a frontend contributor, this helped me understand how individual development activities contributed to the wider application.
+
+As Project Lead, it strengthened my understanding of how deadlines, dependencies and team capacity influence delivery decisions.
+
+**A sprint plan provides direction. Reviewing actual progress helps determine the next responsible action.**
 
 ---
 
